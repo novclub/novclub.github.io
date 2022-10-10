@@ -56,3 +56,24 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+
+# Russian
+# -----------------
+ru: &DEFAULT_RU
+  nav:
+    - title: "Мероприятия"
+      section: services
+    - title: "Доклады"
+      section: portfolio
+    - title: "О нас"
+      section: about
+    - title: "Timeline"
+      section: timeline
+    - title: "Наша команда"
+      section: team
+    - title: "Контакты"
+      section: contact
+    - title: "Theme Source"
+      url: https://github.com/raviriley/agency-jekyll-theme/
+ru-RU:
+  <<: *DEFAULT_RU
