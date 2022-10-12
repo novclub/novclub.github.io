@@ -21,8 +21,8 @@ title      : Новороссийский Христианский Детски�
 email      : club@rigovanov.ru #this is also the email contact forms will go to
 description: "Клуб создан для изучения и рассмотрения основных форм органического мира (жизнь), человечества, планеты Земля, а также мира в целом, как непосредственно созданные Творцом. Клубы предназначены для детей и их родителей."
 author     : Наталья Агеева
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
+logo:     #optional, defaults to site title
+  path: assets\img\logo.jpg
   # height: 60 #height in px, defaults to 52px
 
 locale: "ru-RU" # See available languages in _data/sitetext.yml
