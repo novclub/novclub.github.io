@@ -323,10 +323,10 @@ es-CO:
 
 # Russian
 # -----------------
-en: &DEFAULT_RU
+ru: &DEFAULT_RU
   header:
-    title: Добро пожаловать в наш клуб!
-    text: Наши встречи проходят раз в месяц
+    title: Добро пожаловать в
+    text: Новороссийский Христианский Детский Научный Клуб
     button: Хочу знать больше
     buttonlink: "#services"
 
@@ -346,13 +346,13 @@ en: &DEFAULT_RU
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
+    title: "Доклады"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
+    title: "События"
     text: "Lorem ipsum timeline"
     section: timeline
     # left is the default
@@ -383,7 +383,7 @@ en: &DEFAULT_RU
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
+    title: "О нас"
     text: "our story"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
@@ -407,7 +407,7 @@ en: &DEFAULT_RU
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
+    title: "О нас"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
@@ -444,7 +444,7 @@ en: &DEFAULT_RU
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
+    title: "Контакты"
     text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
