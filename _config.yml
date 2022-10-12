@@ -17,7 +17,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 
-title      : Новороссийский Христианский Детский Научный Клуб
+title      : ХДНК Новороссийск # Новороссийский Христианский Детский Научный Клуб
 email      : club@rigovanov.ru #this is also the email contact forms will go to
 description: "Клуб создан для изучения и рассмотрения основных форм органического мира (жизнь), человечества, планеты Земля, а также мира в целом, как непосредственно созданные Творцом. Клубы предназначены для детей и их родителей."
 author     : Филипп Ригованов
