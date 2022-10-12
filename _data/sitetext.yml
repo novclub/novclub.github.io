@@ -326,7 +326,7 @@ es-CO:
 ru: &DEFAULT_RU
   header:
     title: Добро пожаловать в
-    text: Новороссийский Христианский Детский Научный Клуб
+    text: Христианский Детский Научный Клуб
     button: Хочу знать больше
     buttonlink: "#services"
 
@@ -447,19 +447,19 @@ ru: &DEFAULT_RU
     title: "Контакты"
     text: "Lorem ipsum or call 123456789"
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
+    name: "Имя*"
+    name-validation: "Пожалуйста введите ваше."
     email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
+    email-validation: "Пожалуйста введите ваш адрес электронной почты."
+    phone: "Номер Телефона"
+    phone-validation: "Пожалуйста введите ваш номер телефона."
     message: "Message*"
-    message-validation: "Please enter a message."
+    message-validation: "Пожалуйста введите сообщение."
     subject: "Contact Form Submission"
-    submit: "Send Message"
+    submit: "Отправить сообщение"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "Политика Конфиденциальности"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
