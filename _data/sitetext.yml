@@ -422,7 +422,7 @@ ru: &DEFAULT_RU
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Филипп Ригованов"
+      - name: "Фил Ригованов"
         role: "Сайт"
         image: assets/img/team/2.jpg
         social:
