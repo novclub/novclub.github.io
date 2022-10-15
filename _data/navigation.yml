@@ -61,7 +61,7 @@ es-CO:
 # -----------------
 ru: &DEFAULT_RU
   nav:
-    - title: "Чем мы занимаемся"
+    - title: "У нас"
       section: services
     - title: "Доклады"
       section: portfolio
@@ -69,7 +69,7 @@ ru: &DEFAULT_RU
       section: about
     - title: "События"
       section: timeline
-    - title: "Наша команда"
+    - title: "Мы"
       section: team
     - title: "Контакты"
       section: contact
