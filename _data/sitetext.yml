@@ -394,16 +394,16 @@ ru: &DEFAULT_RU
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        url: http://novchurch.ru
         logo: assets/img/clients/envato.jpg
       - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        url: http://novchurch.ru
         logo: assets/img/clients/designmodo.jpg
       - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        url: http://novchurch.ru
         logo: assets/img/clients/themeforest.jpg
       - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        url: http://novchurch.ru
         logo: assets/img/clients/creative-market.jpg
 
   team:
@@ -422,16 +422,16 @@ ru: &DEFAULT_RU
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Филипп Ригованов"
+        role: "Сайт"
         image: assets/img/team/2.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://github.com/a1ip
+            icon: fab fa-github
+          - url: hhttps://vk.com/rigovanov
+            icon: fab fa-vk
+          - url: https://rigovanov.t.me
+            icon: "fab fa-telegram"
       - name: "Diana Perterson"
         role: "Lead Developer"
         image: assets/img/team/500x500.jpg
@@ -453,7 +453,7 @@ ru: &DEFAULT_RU
     email-validation: "Пожалуйста введите ваш адрес электронной почты."
     phone: "Номер Телефона"
     phone-validation: "Пожалуйста введите ваш номер телефона."
-    message: "Message*"
+    message: "Сообщение*"
     message-validation: "Пожалуйста введите сообщение."
     subject: "Contact Form Submission"
     submit: "Отправить сообщение"
@@ -462,10 +462,10 @@ ru: &DEFAULT_RU
     legal: "Политика Конфиденциальности"
     social:
       - url: https://rigovanov.t.me
-        icon: "fab fa-telegram"
+        icon: fab fa-telegram
       - url: https://vk.com/creacioclubs
-        icon: "fab fa-vk"
+        icon: fab fa-vk
       - url: https://github.com/novclub
-        icon: "fab fa-github"
+        icon: fab fa-github
 ru-RU:
   <<: *DEFAULT_RU
