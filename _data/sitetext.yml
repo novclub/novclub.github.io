@@ -347,13 +347,13 @@ ru: &DEFAULT_RU
 
   portfolio:
     title: "Доклады"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Слайды презентаций докладов и прочие материалы."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Закрыть доклад"
 
   timeline:
     title: "События"
-    text: "Lorem ipsum timeline"
+    text: "Временная Шкала Проведённых Мероприятий"
     section: timeline
     # left is the default
     #start_align: "left"
