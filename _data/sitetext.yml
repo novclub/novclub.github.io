@@ -380,7 +380,7 @@ ru: &DEFAULT_RU
         alt:
         # you can enforce the alignment
         align: right
-    end: "СТАНЬ <br> ЧАСТЬЮ НАШЕЙ <br> ИСТОРИИ!"
+    end: "Стань <br> частью нашей <br> истории!"
 
   about:
     title: "О нас"
