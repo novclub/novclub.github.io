@@ -396,14 +396,14 @@ ru: &DEFAULT_RU
       - title: "Сообщество ХДНК"
         url: https://vk.com/creacioclubs
         logo: assets/img/clients/clubs.jpg
-      - title: "designmodo"
+      - title: "Церковь Евангельских Христиан-Баптистов г.Новороссийска, ул.Плавневая д.1"
         url: http://novchurch.ru
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: http://novchurch.ru
-        logo: assets/img/clients/themeforest.jpg
+        logo: assets/img/clients/plavnevaya.jpg
+      - title: "Новороссийская Церковь Евангельских Христиан «Свет спасения»"
+        url: https://svetspaseniya.ru
+        logo: assets/img/clients/svet-spaseniya.jpg
       - title: "Евангельская церковь Скала"
-        url: https://xn--80aaelzbiuqn3c9d.xn--p1ai/
+        url: https://xn--80aaelzbiuqn3c9d.xn--p1ai
         logo: assets/img/clients/skala.jpg
 
   team:
