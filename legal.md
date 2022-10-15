@@ -3,12 +3,12 @@ layout: page
 title: Privacy Policy
 ---
 <div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
+	<h2 class="section-heading text-uppercase">Политика Конфиденциальности</h2>
 </div>
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
+Эта Политика конфиденциальности описывает, как собирается, используется и передается ваша личная информация, когда вы посещаете ХДНК Новороссийск {{ site.title }} («Сайт»).
 
-**PERSONAL INFORMATION WE COLLECT**
+**ЛИЧНАЯ ИНФОРМАЦИЯ, КОТОРУЮ МЫ СОБИРАЕМ**
 
 {% if site.analytics.google %}
 
@@ -24,14 +24,26 @@ You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaopt
 
 {% else %}
 
-We do not collect any data about you or use any cookies.
+Мы не собираем никаких данных о вас и не используем никаких файлов cookie.
 
 {% endif %}
 
-**CHANGES**
+**ИЗМЕНЕНИЯ**
 
-We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
+Мы можем время от времени обновлять эту политику конфиденциальности по личным, оперативным, юридическим или нормативным причинам.
 
-**CONTACT US**
+**СВЯЗАТЬСЯ С НАМИ**
 
-For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+Для получения дополнительной информации о нашей политике конфиденциальности или если у вас есть вопросы, пожалуйста, свяжитесь с нами по электронной почте по адресу <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+
+
+
+
+
+изменения
+
+
+
+
+
+
