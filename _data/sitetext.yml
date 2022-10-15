@@ -331,7 +331,7 @@ ru: &DEFAULT_RU
     buttonlink: "#services"
 
   services:
-    title: "Services"
+    title: "Чем мы занимаемся?"
     text: "Lorem ipsum"
     section: services
     list:
@@ -407,7 +407,7 @@ ru: &DEFAULT_RU
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "О нас"
+    title: "Наша команда"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
@@ -461,7 +461,7 @@ ru: &DEFAULT_RU
   footer:
     legal: "Политика Конфиденциальности"
     social:
-      - url: https://t.me
+      - url: https://rigovanov.t.me
         icon: "fab fa-telegram"
       - url: https://vk.com/creacioclubs
         icon: "fab fa-vk"
