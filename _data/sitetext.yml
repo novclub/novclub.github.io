@@ -428,7 +428,7 @@ ru: &DEFAULT_RU
         social:
           - url: https://github.com/a1ip
             icon: fab fa-github
-          - url: hhttps://vk.com/rigovanov
+          - url: https://vk.com/rigovanov
             icon: fab fa-vk
           - url: https://rigovanov.t.me
             icon: "fab fa-telegram"
