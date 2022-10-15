@@ -61,7 +61,7 @@ es-CO:
 # -----------------
 ru: &DEFAULT_RU
   nav:
-    - title: "Мероприятия"
+    - title: "Чем мы занимаемся"
       section: services
     - title: "Доклады"
       section: portfolio
