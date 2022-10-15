@@ -331,7 +331,7 @@ ru: &DEFAULT_RU
     buttonlink: "#services"
 
   services:
-    title: "Чем мы занимаемся?"
+    title: "Чем мы занимаемся"
     text: "Lorem ipsum"
     section: services
     list:
