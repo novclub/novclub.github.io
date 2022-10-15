@@ -402,9 +402,9 @@ ru: &DEFAULT_RU
       - title: "themeforest"
         url: http://novchurch.ru
         logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: http://novchurch.ru
-        logo: assets/img/clients/creative-market.jpg
+      - title: "Евангельская церковь Скала"
+        url: https://xn--80aaelzbiuqn3c9d.xn--p1ai/
+        logo: assets/img/clients/skala.jpg
 
   team:
     title: "Участники"
