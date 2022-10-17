@@ -10,9 +10,7 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
-  noresp:
-    - sorry: "Sorry "
-    - trylater: ", it seems that my mail server is not responding. Please try again later!"
+  noresp: ["Sorry ", ", it seems that my mail server is not responding. Please try again later!"]
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -25,8 +23,6 @@ en-AU:
 # Russian
 # -----------------
 ru: &DEFAULT_RU
-  noresp:
-    - sorry: "Извините "
-    - trylater: ", похоже, что наш почтовый сервер не отвечает. Пожалуйста, попробуйте ещё раз позже!"
+  noresp: ["Извините ", ", похоже, что наш почтовый сервер не отвечает. Пожалуйста, попробуйте ещё раз позже!"]
 ru-RU:
   <<: *DEFAULT_RU
