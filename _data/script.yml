@@ -1,0 +1,32 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  noresp:
+    - sorry: "Sorry "
+    - trylater: ", it seems that my mail server is not responding. Please try again later!"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Russian
+# -----------------
+ru: &DEFAULT_RU
+  noresp:
+    - sorry: "Извините "
+    - trylater: ", похоже, что наш почтовый сервер не отвечает. Пожалуйста, попробуйте ещё раз позже!"
+ru-RU:
+  <<: *DEFAULT_RU
