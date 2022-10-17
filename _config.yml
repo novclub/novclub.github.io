@@ -41,3 +41,9 @@ formspree_form_path: "f/mwkznkyn"
 
 plugins:
   - jekyll-remote-theme
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [local]
