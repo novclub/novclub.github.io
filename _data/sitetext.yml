@@ -445,7 +445,7 @@ ru: &DEFAULT_RU
 
   contact:
     title: "Контакты"
-    text: "Lorem ipsum or call 123456789"
+    text: "Заполните следующую форму пожалуйста или пишите на адрес [@rigovanov](https://rigovanov.t.me) в телеграме."
     section: contact
     name: "Имя*"
     name-validation: "Пожалуйста введите ваше."
