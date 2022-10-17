@@ -10,6 +10,7 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
+  menu: "Menu"
   nav:
     - title: "Services"
       section: services
@@ -60,6 +61,7 @@ es-CO:
 # Russian
 # -----------------
 ru: &DEFAULT_RU
+  menu: "Меню"
   nav:
     - title: "У&nbsp;нас"
       section: services
