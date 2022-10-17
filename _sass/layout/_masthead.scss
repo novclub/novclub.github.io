@@ -2,7 +2,7 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: linear-gradient( rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) ), url("#{$header-image}");
+  background-image: linear-gradient(rgba(37,37,37,0.9), rgba(37,37,37,0.9)), url("#{$header-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
