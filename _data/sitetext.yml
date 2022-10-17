@@ -445,17 +445,17 @@ ru: &DEFAULT_RU
 
   contact:
     title: "Контакты"
-    text: "Заполните следующую форму пожалуйста или пишите на адрес <a href='https://rigovanov.t.me'>@rigovanov</a> в телеграме."
+    text: "Заполните следующую форму, пожалуйста <br>или пишите на адрес <a href='https://rigovanov.t.me'>@rigovanov</a> в телеграме."
     section: contact
     name: "Имя*"
-    name-validation: "Пожалуйста введите ваше."
+    name-validation: "Пожалуйста, введите ваше."
     email: "Email*"
-    email-validation: "Пожалуйста введите ваш адрес электронной почты."
+    email-validation: "Пожалуйста, введите ваш адрес электронной почты."
     phone: "Номер Телефона"
-    phone-validation: "Пожалуйста введите ваш номер телефона."
+    phone-validation: "Пожалуйста, введите ваш номер телефона."
     message: "Сообщение*"
-    message-validation: "Пожалуйста введите сообщение."
-    subject: "Contact Form Submission"
+    message-validation: "Пожалуйста, введите сообщение."
+    subject: "Отправка Контактной Формы"
     submit: "Отправить сообщение"
 
   footer:
