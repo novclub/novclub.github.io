@@ -445,7 +445,7 @@ ru: &DEFAULT_RU
 
   contact:
     title: "Контакты"
-    text: "Заполните следующую форму пожалуйста или пишите на адрес <a href='https://rigovanov.t.me'>@rigovanov</a>в телеграме."
+    text: "Заполните следующую форму пожалуйста или пишите на адрес <a href='https://rigovanov.t.me'>@rigovanov</a> в телеграме."
     section: contact
     name: "Имя*"
     name-validation: "Пожалуйста введите ваше."
