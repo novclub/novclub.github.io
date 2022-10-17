@@ -61,11 +61,11 @@ es-CO:
 # -----------------
 ru: &DEFAULT_RU
   nav:
-    - title: "У нас"
+    - title: "У&nbsp;нас"
       section: services
     - title: "Доклады"
       section: portfolio
-    - title: "О нас"
+    - title: "О&nbsp;нас"
       section: about
     - title: "События"
       section: timeline
