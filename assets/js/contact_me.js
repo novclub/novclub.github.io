@@ -52,7 +52,7 @@ $(function() {
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("{{ site.data.script[site.locale].noresp[0] | markdownify }}" + firstName + "{{ site.data.script[site.locale].noresp[1] | markdownify }}"));
+          $('#success > .alert-danger').append($("<strong>").text("{{ site.data.script[site.locale].noresp[0]}}" + firstName + "{{ site.data.script[site.locale].noresp[1]}}"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
