@@ -335,15 +335,15 @@ ru: &DEFAULT_RU
     text: "Чем мы занимаемся"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Встречи с презентациями докладов"
+        desc: "По субботам, регулярно (но не чаще чем раз в месяц) проводятся тематические собрания клуба, с презентациями докладов подготовленными детьми (членами клуба). После содержательной части проводится обязательное чаепитие со сладостями."
+        icon: fas fa-person-chalkboard #find more at https://fontawesome.com/icons
+      - title: "Культпоходы"
+        desc: "Организованные коллективные посещения различных выставок и других культурно-просветительских объектов в городе и окрестностях, с образовательной целью."
+        icon: fas fa-tree-city
+#       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+#         desc: "Your description here, full **Markdown** support"
+#         icon: fab fa-markdown
 
   portfolio:
     title: "Доклады"
@@ -408,12 +408,12 @@ ru: &DEFAULT_RU
 
   team:
     title: "Участники"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: "Руку приложили."
+    subtext: Спасибо **семье Агеевых** и конкретно [Наталье](https://vk.com/natalyageeva) за идею.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Триединый Бог Библии"
+        role: "Творец всего существующего"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -423,7 +423,7 @@ ru: &DEFAULT_RU
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Фил Ригованов"
-        role: "Сайт"
+        role: "Поддержка сайта"
         image: assets/img/team/2.jpg
         social:
           - url: https://github.com/a1ip
@@ -432,8 +432,8 @@ ru: &DEFAULT_RU
             icon: fab fa-vk
           - url: https://rigovanov.t.me
             icon: "fab fa-telegram"
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "Важное Лицо"
+        role: "Координатор и контактное лицо"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
