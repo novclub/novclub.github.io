@@ -336,14 +336,14 @@ ru: &DEFAULT_RU
     section: services
     list:
       - title: "Встречи с презентациями докладов"
-        desc: "По субботам, регулярно (но не чаще чем раз в месяц) проводятся тематические собрания клуба, с презентациями докладов подготовленными детьми (членами клуба). После содержательной части проводится обязательное чаепитие со сладостями."
-        icon: fa-solid fa-person-chalkboard #find more at https://fontawesome.com/icons
+        desc: "По субботам, регулярно (но не чаще чем раз в месяц) проводятся тематические собрания клуба, с презентациями докладов подготовленными детьми (членами клуба) и дисскуссиями. После содержательной части проводится обязательное чаепитие со сладостями."
+        icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
       - title: "Культпоходы"
         desc: "Организованные коллективные посещения различных выставок и других культурно-просветительских объектов в городе и окрестностях, с образовательной целью."
-        icon: fa-solid fa-tree-city
-#       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-#         desc: "Your description here, full **Markdown** support"
-#         icon: fab fa-markdown
+        icon: fas fa-map-marked-alt
+      - title: "[РЖЯ](https://ru.wikipedia.org/wiki/Русский_жестовый_язык)"
+        desc: "Среди родителей членов клуба есть **переводчики на РЖЯ**, так что глухие и слабслышащие дети тоже могут участвовать."
+        icon: fas fa-sign-language
 
   portfolio:
     title: "Доклады"
@@ -412,7 +412,7 @@ ru: &DEFAULT_RU
     subtext: Спасибо **семье Агеевых** и конкретно [Наталье](https://vk.com/natalyageeva) за идею.
     section: team
     people:
-      - name: "Триединый Бог Библии"
+      - name: "Триединый Библейский Бог"
         role: "Творец всего существующего"
         image: assets/img/team/500x500.jpg
         social:
@@ -422,7 +422,7 @@ ru: &DEFAULT_RU
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Фил Ригованов"
+      - name: "Фил Ригованов           "
         role: "Поддержка сайта"
         image: assets/img/team/2.jpg
         social:
