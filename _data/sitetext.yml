@@ -2,10 +2,159 @@
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
 # Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
+# locale: "ru-RU"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# Russian
+# -----------------
+ru: &DEFAULT_RU
+  header:
+    title: Добро пожаловать в
+    text: Христианский Детский Научный Клуб
+    button: Хочу знать больше
+    buttonlink: "#services"
+
+  services:
+    title: "У нас"
+    text: "Чем мы занимаемся"
+    section: services
+    list:
+      - title: "Встречи"
+        desc: "Регулярные тематические собрания клуба, с презентациями докладов и дисскуссиями. После содержательной части проводится обязательное чаепитие со сладостями."
+        icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
+      - title: "Культпоходы"
+        desc: "Организованные коллективные посещения различных выставок и других культурно-просветительских объектов в городе и окрестностях, с образовательной целью."
+        icon: fas fa-map-marked-alt
+      - title: "[РЖЯ](https://ru.wikipedia.org/wiki/Русский_жестовый_язык)"
+        desc: "Среди родителей членов клуба есть **переводчики на РЖЯ**, так что глухие и слабослышащие дети тоже могут участвовать."
+        icon: fas fa-sign-language
+
+  portfolio:
+    title: "Доклады"
+    text: "Слайды презентаций докладов и прочие материалы."
+    section: portfolio
+    closebutton: "Закрыть доклад"
+
+  timeline:
+    title: "События"
+    text: "Временная Шкала Проведённых Мероприятий"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Стань <br> частью <br> истории!"
+
+  about:
+    title: "О нас"
+    text: "Предназначение нашего клуба"
+    body: "Клуб предназначен для детей и их родителей. Он создан для изучения и рассмотрения основных форм органического мира (жизнь), человечества, планеты Земля, а также мира в целом, как непосредственно созданных Творцом. <br><br> <strong>«Ты, Господи, един, Ты создал небо, небеса небес и всё воинство их, землю и всё, что на ней, моря и всё, что в них, и Ты живишь всё сие, и небесные воинства Тебе поклоняются» —&nbsp;Неемия&nbsp;9:6</strong>"
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "Сообщество ХДНК"
+        url: https://vk.com/creacioclubs
+        logo: assets/img/clients/clubs.jpg
+      - title: "Церковь Евангельских Христиан-Баптистов г.Новороссийска, ул.Плавневая д.1"
+        url: http://novchurch.ru
+        logo: assets/img/clients/plavnevaya.jpg
+      - title: "Новороссийская Церковь Евангельских Христиан «Свет спасения»"
+        url: https://svetspaseniya.ru
+        logo: assets/img/clients/svet-spaseniya.jpg
+      - title: "Евангельская церковь Скала"
+        url: https://xn--80aaelzbiuqn3c9d.xn--p1ai
+        logo: assets/img/clients/skala.jpg
+
+  team:
+    title: "Участники"
+    text: "Руку приложили."
+    subtext: Спасибо большое **семье Агеевых** \(и конкретно [Наталье Александровне](https://vk.com/natalyageeva)\) за идею.
+    section: team
+    people:
+      - name: "Триединый Библейский Бог"
+        role: "Творец всего существующего"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Фил Ригованов           "
+        role: "Поддержка сайта"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://github.com/a1ip
+            icon: fab fa-github
+          - url: https://vk.com/rigovanov
+            icon: fab fa-vk
+          - url: https://rigovanov.t.me
+            icon: "fab fa-telegram"
+      - name: "Важное Лицо"
+        role: "Координатор и контактное лицо"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Контакты"
+    text: "Заполните следующую форму, пожалуйста <br>или пишите на адрес <a href='https://rigovanov.t.me'>@rigovanov</a> в телеграме."
+    section: contact
+    name: "Имя*"
+    name-validation: "Пожалуйста, введите ваше."
+    email: "Email*"
+    email-validation: "Пожалуйста, введите ваш адрес электронной почты."
+    phone: "Номер Телефона"
+    phone-validation: "Пожалуйста, введите ваш номер телефона."
+    message: "Сообщение*"
+    message-validation: "Пожалуйста, введите сообщение."
+    subject: "Отправка Контактной Формы"
+    submit: "Отправить сообщение"
+
+  footer:
+    legal: "Политика Конфиденциальности"
+    social:
+      - url: https://rigovanov.t.me
+        icon: fab fa-telegram
+      - url: https://vk.com/creacioclubs
+        icon: fab fa-vk
+      - url: https://github.com/novclub
+        icon: fab fa-github
+ru-RU:
+  <<: *DEFAULT_RU
 
 # English (default)
 # -----------------
@@ -320,152 +469,3 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
-
-# Russian
-# -----------------
-ru: &DEFAULT_RU
-  header:
-    title: Добро пожаловать в
-    text: Христианский Детский Научный Клуб
-    button: Хочу знать больше
-    buttonlink: "#services"
-
-  services:
-    title: "У нас"
-    text: "Чем мы занимаемся"
-    section: services
-    list:
-      - title: "Встречи"
-        desc: "Регулярные тематические собрания клуба, с презентациями докладов подготовленными детьми (членами клуба) и дисскуссиями. После содержательной части проводится обязательное чаепитие со сладостями."
-        icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
-      - title: "Культпоходы"
-        desc: "Организованные коллективные посещения различных выставок и других культурно-просветительских объектов в городе и окрестностях, с образовательной целью."
-        icon: fas fa-map-marked-alt
-      - title: "[РЖЯ](https://ru.wikipedia.org/wiki/Русский_жестовый_язык)"
-        desc: "Среди родителей членов клуба есть **переводчики на РЖЯ**, так что глухие и слабослышащие дети тоже могут участвовать."
-        icon: fas fa-sign-language
-
-  portfolio:
-    title: "Доклады"
-    text: "Слайды презентаций докладов и прочие материалы."
-    section: portfolio
-    closebutton: "Закрыть доклад"
-
-  timeline:
-    title: "События"
-    text: "Временная Шкала Проведённых Мероприятий"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Стань <br> частью <br> истории!"
-
-  about:
-    title: "О нас"
-    text: "Предназначение нашего клуба"
-    body: "Клуб предназначен для детей и их родителей. Он создан для изучения и рассмотрения основных форм органического мира (жизнь), человечества, планеты Земля, а также мира в целом, как непосредственно созданных Творцом. <br><br> «Ты, Господи, един, Ты создал небо, небеса небес и всё воинство их, землю и всё, что на ней, моря и всё, что в них, и Ты живишь всё сие, и небесные воинства Тебе поклоняются» —&nbsp;Неемия&nbsp;9:6"
-    section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "Сообщество ХДНК"
-        url: https://vk.com/creacioclubs
-        logo: assets/img/clients/clubs.jpg
-      - title: "Церковь Евангельских Христиан-Баптистов г.Новороссийска, ул.Плавневая д.1"
-        url: http://novchurch.ru
-        logo: assets/img/clients/plavnevaya.jpg
-      - title: "Новороссийская Церковь Евангельских Христиан «Свет спасения»"
-        url: https://svetspaseniya.ru
-        logo: assets/img/clients/svet-spaseniya.jpg
-      - title: "Евангельская церковь Скала"
-        url: https://xn--80aaelzbiuqn3c9d.xn--p1ai
-        logo: assets/img/clients/skala.jpg
-
-  team:
-    title: "Участники"
-    text: "Руку приложили."
-    subtext: Спасибо **семье Агеевых** и конкретно [Наталье Александровне](https://vk.com/natalyageeva) за идею.
-    section: team
-    people:
-      - name: "Триединый Библейский Бог"
-        role: "Творец всего существующего"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Фил Ригованов           "
-        role: "Поддержка сайта"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://github.com/a1ip
-            icon: fab fa-github
-          - url: https://vk.com/rigovanov
-            icon: fab fa-vk
-          - url: https://rigovanov.t.me
-            icon: "fab fa-telegram"
-      - name: "Важное Лицо"
-        role: "Координатор и контактное лицо"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Контакты"
-    text: "Заполните следующую форму, пожалуйста <br>или пишите на адрес <a href='https://rigovanov.t.me'>@rigovanov</a> в телеграме."
-    section: contact
-    name: "Имя*"
-    name-validation: "Пожалуйста, введите ваше."
-    email: "Email*"
-    email-validation: "Пожалуйста, введите ваш адрес электронной почты."
-    phone: "Номер Телефона"
-    phone-validation: "Пожалуйста, введите ваш номер телефона."
-    message: "Сообщение*"
-    message-validation: "Пожалуйста, введите сообщение."
-    subject: "Отправка Контактной Формы"
-    submit: "Отправить сообщение"
-
-  footer:
-    legal: "Политика Конфиденциальности"
-    social:
-      - url: https://rigovanov.t.me
-        icon: fab fa-telegram
-      - url: https://vk.com/creacioclubs
-        icon: fab fa-vk
-      - url: https://github.com/novclub
-        icon: fab fa-github
-ru-RU:
-  <<: *DEFAULT_RU
