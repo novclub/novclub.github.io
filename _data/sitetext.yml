@@ -98,8 +98,8 @@ ru: &DEFAULT_RU
     subtext: Спасибо большое **семье Агеевых** \(и конкретно [Наталье Александровне](https://vk.com/natalyageeva)\) за идею.
     section: team
     people:
-      - name: "Триединый Библейский Бог"
-        role: "Творец всего существующего"
+      - name: "Благодать Господа Иисуса Христа"
+        role: "Слава Творцу"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
