@@ -337,10 +337,10 @@ ru: &DEFAULT_RU
     list:
       - title: "Встречи с презентациями докладов"
         desc: "По субботам, регулярно (но не чаще чем раз в месяц) проводятся тематические собрания клуба, с презентациями докладов подготовленными детьми (членами клуба). После содержательной части проводится обязательное чаепитие со сладостями."
-        icon: fas fa-person-chalkboard #find more at https://fontawesome.com/icons
+        icon: fa-solid fa-person-chalkboard #find more at https://fontawesome.com/icons
       - title: "Культпоходы"
         desc: "Организованные коллективные посещения различных выставок и других культурно-просветительских объектов в городе и окрестностях, с образовательной целью."
-        icon: fas fa-tree-city
+        icon: fa-solid fa-tree-city
 #       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
 #         desc: "Your description here, full **Markdown** support"
 #         icon: fab fa-markdown
